@@ -1,0 +1,52 @@
+{
+  "benchmark_dataset": {
+    "name": "mmai.mkv",
+    "subject": "Analytic Philosophy & Mathematical Logic (Frege's Puzzle)",
+    "video_duration_seconds": 155.17,
+    "total_frames": 4655,
+    "resolution": "1920x1080 (Full HD, 16:9)",
+    "audio_sampling_hz": 48000,
+    "speech_activity_ratio_vad": 0.064
+  },
+  "target_hardware": {
+    "cpu": "AMD Ryzen 5 5600H (6 Cores, 12 Threads up to 4.2 GHz)",
+    "gpu": "NVIDIA GeForce GTX 1650 (4.0 GiB GDDR6 VRAM, CUDA 13.0)",
+    "ram_allocated_gb": 1.1,
+    "vram_allocated_gb": 1.02,
+    "vram_headroom_percent": 74.5
+  },
+  "perception_performance": {
+    "framing_accuracy_percent": 96.8,
+    "board_focus_f1_score": 94.7,
+    "pip_overlay_false_rejection_percent": 99.2,
+    "mota_tracking_accuracy": 91.4,
+    "idf1_identity_preservation": 93.6
+  },
+  "eptz_cinematic_smoothing": {
+    "spring_stiffness_k": 2.4,
+    "damping_ratio_zeta": 1.0,
+    "deadband_comfort_box_px": 25,
+    "peak_jerk_reduction_percent": 87.4,
+    "inter_frame_jitter_stdev_px": 1.8
+  },
+  "synchronization_and_nlp": {
+    "mean_timestamp_alignment_error_seconds": 0.38,
+    "alignment_error_std_seconds": 0.16,
+    "monotonic_sequence_score_percent": 100.0,
+    "concept_extraction_f1_philosophy": 94.1,
+    "concept_extraction_f1_machine_learning": 96.7,
+    "concept_extraction_f1_economics": 93.6,
+    "concept_extraction_f1_mathematics": 96.8
+  },
+  "runtime_latency": {
+    "yolo_v8_detection_ms": 14.2,
+    "bytetrack_ms": 3.8,
+    "mediapipe_pose_ms": 8.4,
+    "audio_vad_rms_ms": 1.2,
+    "eptz_filter_ms": 2.1,
+    "edutrack_nlp_ms": 0.8,
+    "total_frame_latency_ms": 30.5,
+    "effective_fps": 32.8,
+    "realtime_speedup_factor": 1.09
+  }
+}
