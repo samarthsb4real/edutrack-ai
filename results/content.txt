@@ -292,17 +292,24 @@ The results/ folder contains the following publication-ready files:
    - Left: Component-wise latency breakdown against the 33.3 ms (30 FPS) deadline.
    - Right: GPU VRAM allocation headroom gauge on NVIDIA GTX 1650.
 
-6. results/metrics_summary.json
-   - Machine-readable JSON summary of all quantitative performance benchmarks.
+6. results/fig6_paradigm_comparisons.pdf / .png
+   - (a) Quantitative benchmark across the 4 fusion paradigms (Baseline, Early, Late, Hybrid).
+   - (b) Architectural trade-off radar profile illustrating Pareto dominance of Hybrid Fusion.
 
-7. results/evaluation_report.md
+7. results/fig7_fusion_architectures_diagram.pdf / .png
+   - Multi-panel architectural schema contrasting dataflows across the 4 paradigms.
+
+8. results/metrics_summary.json
+   - Machine-readable JSON summary of all quantitative performance benchmarks and paradigm metrics.
+
+9. results/evaluation_report.md
    - Comprehensive markdown evaluation report with academic LaTeX table format.
 
-8. results/generate_eval_metrics_and_figures.py
-   - Reproducible Python script using pure Matplotlib/NumPy to regenerate all visuals.
+10. results/generate_eval_metrics_and_figures.py
+    - Reproducible Python script using pure Matplotlib/NumPy to regenerate all 7 visuals.
 
-9. results/content.txt
-   - This comprehensive technical specification dossier.
+11. results/content.txt
+    - This comprehensive technical specification dossier.
 
 
 --------------------------------------------------------------------------------

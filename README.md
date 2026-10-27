@@ -86,6 +86,8 @@ The `results/` directory contains publication-ready figures in vector PDF and 30
 3. **Figure 3**: FSM State Occupancy & Audio Energy Synchrony (`results/fig3_fsm_state_distribution.png`)
 4. **Figure 4**: Presentation Timestamp Alignment & Concept Extraction Precision (`results/fig4_slide_sync_alignment_latency.png`)
 5. **Figure 5**: Hardware Profiling & GPU Memory Headroom (`results/fig5_hardware_profiling_and_resource_headroom.png`)
+6. **Figure 6**: Multimodal Fusion Paradigm Quantitative Benchmark (`results/fig6_paradigm_comparisons.png`)
+7. **Figure 7**: Architectural Schema Across Fusion Paradigms (`results/fig7_fusion_architectures_diagram.png`)
 
 ---
 
@@ -148,8 +150,11 @@ python3 results/generate_eval_metrics_and_figures.py
 │   ├── fig3_fsm_state_distribution.png / .pdf
 │   ├── fig4_slide_sync_alignment_latency.png / .pdf
 │   ├── fig5_hardware_profiling_and_resource_headroom.png / .pdf
+│   ├── fig6_paradigm_comparisons.png / .pdf
+│   ├── fig7_fusion_architectures_diagram.png / .pdf
 │   ├── metrics_summary.json
 │   ├── evaluation_report.md
+│   ├── generate_paradigm_comparison_figure.py
 │   └── generate_eval_metrics_and_figures.py
 ├── src/
 │   ├── app/

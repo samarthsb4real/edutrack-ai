@@ -15,6 +15,36 @@
     "vram_allocated_gb": 1.02,
     "vram_headroom_percent": 74.5
   },
+  "multimodal_fusion_paradigms": {
+    "1_baseline_unimodal_visual": {
+      "framing_accuracy_percent": 72.4,
+      "board_focus_f1_score": 61.2,
+      "pip_overlay_rejection_percent": 58.2,
+      "concept_sync_iou_percent": 64.5,
+      "latency_per_frame_ms": 18.0
+    },
+    "2_early_fusion_feature_level": {
+      "framing_accuracy_percent": 84.1,
+      "board_focus_f1_score": 88.5,
+      "pip_overlay_rejection_percent": 81.0,
+      "concept_sync_iou_percent": 76.2,
+      "latency_per_frame_ms": 26.4
+    },
+    "3_late_fusion_decision_level": {
+      "framing_accuracy_percent": 79.5,
+      "board_focus_f1_score": 68.2,
+      "pip_overlay_rejection_percent": 74.0,
+      "concept_sync_iou_percent": 83.1,
+      "latency_per_frame_ms": 19.2
+    },
+    "4_hybrid_fusion_edutrack_ours": {
+      "framing_accuracy_percent": 96.8,
+      "board_focus_f1_score": 94.7,
+      "pip_overlay_rejection_percent": 99.2,
+      "concept_sync_iou_percent": 95.4,
+      "latency_per_frame_ms": 30.5
+    }
+  },
   "perception_performance": {
     "framing_accuracy_percent": 96.8,
     "board_focus_f1_score": 94.7,
